@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Research – Omer Avci</title>
+<link rel="stylesheet" href="style.css">
+
+   <style>
+a {
+  color: #ff69b4;         /* soft pink */
+  text-decoration: none;  /* removes underline */
+}
+/* Navigation links */
+nav a {
+  color: #4b0082;          /* dark purple */
+  text-decoration: underline;  /* keep underline */
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+/* Navigation hover effect */
+nav a:hover,
+nav a.active {
+  color: #6a0dad;          /* slightly lighter purple on hover */
+  text-decoration: underline;
+}
+
+/* Navigation visited links */
+nav a:visited {
+  color: #4b0082;          /* dark purple, same as unvisited */
+}
+
+      
+.content-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Teaching page image */
+.research-img {
+  width: 440px;         /* adjust width */
+  max-height: 600px;    /* optional max-height to prevent huge image */
+  border-radius: 10px;  /* rounded corners */
+  object-fit: cover;    /* keeps proportions */
+}
+
+/* Make responsive for mobile */
+@media (max-width: 768px) {
+  .content-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .research-img {
+    width: 200px;
+    max-height: none;
+  }
+}
+</style>  
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a class="active" href="research.html">Research</a>
+  <a href="talks.html">Talks & Events</a>
+  <a href="teaching.html">Teaching</a>
+  <a href="videos.html">Videos</a>
+</nav>
+
+<!-- Main content block -->
+<div class="content-container">
+  
+<!-- Left side research image -->
+<img src="images/reserachimage.jpg" alt="Research image" class="research-img">
+
+  <!-- Right side text -->  
+<div>
+<header>
+  <h1>Research</h1>
+</header>
+
+<section>
+In Spring 2023, I worked on a project focused on application of category theory, under the supervision of Prof. Olcay Coskun. 
+In this project we studied the Prof. Tom Leinster's paper called Entropy and Diversity: The Axiomatic Approach. 
+Here I learned about how to grasp physical concepts like entropy in pure algebraic ways.
+In Summer 2023, I started a project on Class Number Formula under the guidance of Gaurish Korpal. 
+I am still working on this project. You can find my notes on the subject here.
+
+
+
+  
+  
+  
+
+</section>
+
+   </div>
+
+</div>
+
+<footer>
+  <p>© 2025 Omer Avci</p>
+</footer>
+
+</body>
+</html>
